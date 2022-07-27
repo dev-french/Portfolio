@@ -124,22 +124,10 @@ Je me crée une branch via la commande ```git checkout -b routes&API``` sur laqu
 
 # Mes Questions
 
-Une fois mon environnement de développement prêt avec tout les outils d'installé et ma branch crée je me dis **Oups !**
-
-**STOP**
-
-
-
-Comment va être organisé mon site ? 
-
-Ok des Routes, Models ou des Controllers mais pour afficher quoi ? Sur quel page ?
-
-
-Quel va être le modèle MCD de ma BDD ou de mon API ? 
-
-
-Je me rends compte que je n'est pas pensé à tout ça et c'est mal ! 
-Je vais devoir prendre un papier et mettre mes idées au clair, faire un semblant de maquette du site (wireframe) pour pouvoir rédiger mes users-story et mieux comprendre les fonctionnalitées que je souhaite développer. Puis pour les données de ma BDD ou mon API faire le modèle MCD avec une belle illustration via Mocodo.
+un repo front & un repo back ? ou tout en 1 ?
+Insomnia sera il utile sur ce projet ?
+Se renseigner sur Docker ?
+Créé mon wireframes et mes users - story ?
 
 A few moment later...
 
