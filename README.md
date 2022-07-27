@@ -125,9 +125,13 @@ Je me crée une branch via la commande ```git checkout -b routes&API``` sur laqu
 # Mes Questions
 
 un repo front & un repo back ? ou tout en 1 ?
+
 Insomnia sera il utile sur ce projet ?
+
 Se renseigner sur Docker ?
+
 Créé mon wireframes et mes users - story ?
+
 
 A few moment later...
 
