@@ -57,7 +57,7 @@ Ensuite je me rends sur http://mocodo.wingi.net pour renseigner les entités, as
 
 Laravel utilise Composer pour gérer ses dépendances. Donc, avant d'utiliser Laravel, je m'assure que Composer est installé sur ma machine. 
 
-**1 )** Création du projet et installation de Laravel via une commande dans le terminal :
+**4 )** Création du projet et installation de Laravel via une commande dans le terminal :
 ```
 composer create-project laravel/laravel nomDuProjet
 ```
@@ -80,7 +80,7 @@ Puis je me rend sur mon navigateur et tape dans ma barre d’url :
 
  
 ----
-**2 )** Je me connecte sur Adminer pour crée ma DataBase.
+**5 )** Je me connecte sur Adminer pour crée ma DataBase.
 
 ![image](https://user-images.githubusercontent.com/104022785/181300186-0bc67c29-adce-484d-89e0-732f4907fafa.png)
 
@@ -104,15 +104,17 @@ Dans le dossier **app → Http → Controllers** je crée un fichier MainControl
 
 
 ----
-**4 )** Dans le ficher web.php dans le dossier routes je crée ma route ‘/’ de méthode GET et je n’oublie pas le use pour “connecté” mon Controller à ma route :
+**6 )** Dans le ficher web.php dans le dossier routes je crée ma route ‘/’ de méthode GET et je n’oublie pas le use pour “connecté” mon Controller à ma route :
 
 ![image](https://user-images.githubusercontent.com/104022785/181300069-b1d1a86d-bf37-42f8-833f-01e2e93074e8.png)
 
 
 J’actualise mon navigateur et l’affichage de notre echo prouve que notre route à bien était crée ! :D
+![image](https://user-images.githubusercontent.com/104022785/181300552-ee8f2357-ee0a-4d94-bb8a-3a395747d143.png)
+
 
 ---------
-**5 )** Maintenant que mon environnement de travail et mes outils sont prêt je peut :
+**7 )** Maintenant que mon environnement de travail et mes outils sont prêt je peut :
 
  ```git add . / git commit -m "install composer and Laravel framework" / git push``` 
 
