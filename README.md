@@ -27,7 +27,7 @@ For the DB part I want to create my own API.
 
 # Etapes du projet (ordre chronologique)
 -----
-2 ) Maintenant pour crée le modèle MCD de ma BDD je dois me poser les questions suivantes :
+1 ) Pour crée le modèle MCD de ma BDD je dois me poser les questions suivantes :
 
 - Quelles infos je dois stocker ?
     
@@ -50,6 +50,7 @@ For the DB part I want to create my own API.
 Ensuite je me rends sur http://mocodo.wingi.net pour renseigner les entités, associations, attributs, identifiants, cardinalités de ma BDD
 
 
+![image](https://user-images.githubusercontent.com/104022785/181300257-44edd819-6409-4a14-b0ab-335167a27939.png)
 
 ---
 **Installation de Composer, Laravel & des dépendances.**
@@ -81,6 +82,9 @@ Puis je me rend sur mon navigateur et tape dans ma barre d’url :
 ----
 **2 )** Je me connecte sur Adminer pour crée ma DataBase.
 
+![image](https://user-images.githubusercontent.com/104022785/181300186-0bc67c29-adce-484d-89e0-732f4907fafa.png)
+
+
 Ensuite je crée un fichier .env à la racine de mon projet dans lequel je colle le contenu de .env.example et modifie les données pour relier ma nouvelle DB au projet
 
 ```
@@ -96,37 +100,15 @@ DB_PASSWORD=root
 
 Dans le dossier **app → Http → Controllers** je crée un fichier MainController avec la méthode home qui fera un echo d'une chaine de caractères sur ma page " / " pour etre sur que notre route et belle est bien crée :
 
-```
-<?php
+![image](https://user-images.githubusercontent.com/104022785/181299939-8fd6ded2-34f5-4ef0-8c60-fa6549732b51.png)
 
-namespace App\Http\Controllers;
 
-class MainController extends Controller {
-
-    /**
-     * HTTP Method : GET
-     * URL : /
-     */
-    public function home()
-    {
-        echo "je suis la page home";
-    }
-}
-```
 ----
 **4 )** Dans le ficher web.php dans le dossier routes je crée ma route ‘/’ de méthode GET et je n’oublie pas le use pour “connecté” mon Controller à ma route :
-```
-// Je déclare un route de méthode GET
-Route::get(
-    // URL de la route
-    '/',
-    [
-        // Le nom complet du controller
-        MainController::class,
-        // le nom de la méthode
-        'home'
-    ]);
-```
+
+![image](https://user-images.githubusercontent.com/104022785/181300069-b1d1a86d-bf37-42f8-833f-01e2e93074e8.png)
+
+
 J’actualise mon navigateur et l’affichage de notre echo prouve que notre route à bien était crée ! :D
 
 ---------
