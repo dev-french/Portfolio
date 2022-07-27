@@ -24,7 +24,7 @@ For the DB part I want to create my own API.
 5) Implement a minimum of security in the site code (SQL-injections, CSRF etc..)
 
 -------------------------------------------------------------------------------
-
+ 
 # Etapes du projet (ordre chronologique)
 -----
 2 ) Maintenant pour crée le modèle MCD de ma BDD je dois me poser les questions suivantes :
