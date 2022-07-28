@@ -47,6 +47,8 @@ Une fois mon MCD fini je commence à rédiger mon Dictionnaire de données
 ![image](https://user-images.githubusercontent.com/104022785/181504943-90207141-4da4-475a-84aa-3d645ac257e1.png)
 
 Maintenant je me rends sur Adminer dans ma BDD “portfolio” dans laquelle je vais traduire mon dictionnaire de données dans la BDD (créer les tables, les champs, etc..)
+![image](https://user-images.githubusercontent.com/104022785/181509261-4d7e95c2-ad4f-47c4-966a-679c3ffea3de.png)
+
 
 ---
 **Installation de Composer, Laravel & des dépendances.**
