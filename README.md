@@ -37,6 +37,7 @@ For the DB part I want to create my own API.
  
 
 Ensuite je me rends sur http://mocodo.wingi.net pour renseigner les entités, associations, attributs, identifiants, cardinalités de ma BDD.
+
 Dans mon cas le MCD est très simple, il se compose d'une seule entitée CONTACT
 
 ![image](https://user-images.githubusercontent.com/104022785/181497450-68016dca-8acd-455a-a8f9-effefaab3b90.png)
