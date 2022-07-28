@@ -24,6 +24,33 @@ For the DB part I want to create my own API.
 5) Implement a minimum of security in the site code (SQL-injections, CSRF etc..)
 
 -------------------------------------------------------------------------------
+
+**Installation de Composer, Laravel & des dépendances.**
+
+Laravel utilise Composer pour gérer ses dépendances. Donc, avant d'utiliser Laravel, je m'assure que Composer est installé sur ma machine. 
+
+**4 )** Création du projet et installation de Laravel via une commande dans le terminal :
+```
+composer create-project laravel/laravel nomDuProjet
+```
+Ensuite entrer la commande suivante pour mettre à jour nos dépendances :
+```
+composer update
+```
+----------------
+Je me connecte sur le serveur [localhost](http://localhost) de PHP ou Laravel en tapant la commande suivant :
+
+```php
+`php -S 0.0.0.0:8080 -t public` ou php artisan serve
+```
+----
+Puis je me rend sur mon navigateur et tape dans ma barre d’url :
+
+<aside>
+💡  localhost:8080 ou 127.0.0.1:8000
+</aside>
+
+-----
  
 # Etapes du projet (ordre chronologique)
 -----
@@ -64,38 +91,11 @@ DB_PASSWORD=root
 ```
 
 Maintenant sur Adminer dans ma BDD “portfolio” que je viens de crée je vais traduire mon dictionnaire de données (créer les tables, les champs, etc..)
+
 ![image](https://user-images.githubusercontent.com/104022785/181509261-4d7e95c2-ad4f-47c4-966a-679c3ffea3de.png)
-
-
----
-**Installation de Composer, Laravel & des dépendances.**
-
-Laravel utilise Composer pour gérer ses dépendances. Donc, avant d'utiliser Laravel, je m'assure que Composer est installé sur ma machine. 
-
-**4 )** Création du projet et installation de Laravel via une commande dans le terminal :
-```
-composer create-project laravel/laravel nomDuProjet
-```
-Ensuite entrer la commande suivante pour mettre à jour nos dépendances :
-```
-composer update
-```
-----------------
-Je me connecte sur le serveur [localhost](http://localhost) de PHP ou Laravel en tapant la commande suivant :
-
-```php
-`php -S 0.0.0.0:8080 -t public` ou php artisan serve
-```
-----
-Puis je me rend sur mon navigateur et tape dans ma barre d’url :
-
-<aside>
-💡  localhost:8080 ou 127.0.0.1:8000
-</aside>
-
  
 ----
-**6 )** Maintenant nous allons crée notre première route "/" en GET.
+**6 )** Maintenant nous allons crée notre première route principale "/" en GET.
 
 Dans le dossier **app → Http → Controllers** je crée un fichier MainController avec la méthode home qui fera un echo d'une chaine de caractères sur ma page " / " pour etre sur que notre route et belle est bien crée :
 
