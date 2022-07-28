@@ -4,9 +4,11 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
+
+
 // On pense de suite à faire un CoreModel
 //? Eloquent vient avec son CoreModel
-class Category extends Model
+class Contact extends Model
 {
     // La seule règle : nom du Model au singulier => nom de la Table au pluriel
     // Eloquant va automatiquement trouverla table correspondant à notre Model

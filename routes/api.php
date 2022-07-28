@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\ContactController; //! Ajouter
 
 /*
 |--------------------------------------------------------------------------
@@ -20,16 +21,27 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 
 /***********************************/
-/*           Category              */
+/*           Contact             */
 /***********************************/
 
 // Je déclare un route de méthode GET
 Route::get(
     // URL de la route
-    '/categories',
+    '/contacts',
     [
         // Le nom complet du controller
-        CategoryController::class,
+        ContactController::class,
         // le nom de la méthode
-        'browse'
+        'contactGet'
+    ]);
+
+    // Je déclare un route de méthode POST
+Route::post(
+    // URL de la route
+    '/contacts',
+    [
+        // Le nom complet du controller
+        ContactController::class,
+        // le nom de la méthode
+        'contactPost'
     ]);
