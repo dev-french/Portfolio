@@ -18,3 +18,18 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+
+/***********************************/
+/*           Category              */
+/***********************************/
+
+// Je déclare un route de méthode GET
+Route::get(
+    // URL de la route
+    '/categories',
+    [
+        // Le nom complet du controller
+        CategoryController::class,
+        // le nom de la méthode
+        'browse'
+    ]);
