@@ -4,7 +4,7 @@
 **I decided to create a portfolio website
 the site will be composed of :**
 
-- A back end developed with the Laravel framework which will be structured in MVC architecture.
+- A back end developed with PHP stack and the Laravel framework which will be structured in MVC architecture.
 Several dependencies will be used as Composer, JSON etc..
 For the DB part I want to create my own API.
 
