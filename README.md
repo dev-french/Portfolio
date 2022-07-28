@@ -29,7 +29,7 @@ For the DB part I want to create my own API.
 
 Laravel utilise Composer pour gérer ses dépendances. Donc, avant d'utiliser Laravel, je m'assure que Composer est installé sur ma machine. 
 
-**4 )** Création du projet et installation de Laravel via une commande dans le terminal :
+**1 )** Création du projet et installation de Laravel via une commande dans le terminal :
 ```
 composer create-project laravel/laravel nomDuProjet
 ```
@@ -50,11 +50,19 @@ Puis je me rend sur mon navigateur et tape dans ma barre d’url :
 💡  localhost:8080 ou 127.0.0.1:8000
 </aside>
 
------
- 
+----
+
+**2 )** Maintenant que mon environnement de travail et mes outils sont prêt je peut :
+
+ ```git add . / git commit -m "install composer and Laravel framework" / git push``` 
+
+Je me crée une branch via la commande ```git checkout -b routes&API``` sur laquel je vais pouvoir commencer à configurer mon API REST CRUD & coder mes Controllers, Models, Routes etc ...
+
+----
+
 # Etapes du projet (ordre chronologique)
 -----
-**1 )** Pour crée le modèle MCD de ma BDD je dois me poser les questions suivantes :
+**1 )** Je commence par le création du MCD, pour le créer je dois me poser les questions suivantes :
 
 - Quelles infos je dois stocker ?
     
@@ -113,13 +121,7 @@ J’actualise mon navigateur et l’affichage de notre echo prouve que notre rou
 
 
 ---------
-**5 )** Maintenant que mon environnement de travail et mes outils sont prêt je peut :
 
- ```git add . / git commit -m "install composer and Laravel framework" / git push``` 
-
-Je me crée une branch via la commande ```git checkout -b routes&API``` sur laquel je vais pouvoir commencer à configurer mon API REST CRUD & coder mes Controllers, Models, Routes etc ...
-
-----
 
 # Mes Questions
 
