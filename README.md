@@ -27,7 +27,7 @@ For the DB part I want to create my own API.
  
 # Etapes du projet (ordre chronologique)
 -----
-1 ) Pour crée le modèle MCD de ma BDD je dois me poser les questions suivantes :
+**1 )** Pour crée le modèle MCD de ma BDD je dois me poser les questions suivantes :
 
 - Quelles infos je dois stocker ?
     
@@ -46,7 +46,24 @@ Une fois mon MCD fini je commence à rédiger mon Dictionnaire de données
 
 ![image](https://user-images.githubusercontent.com/104022785/181504943-90207141-4da4-475a-84aa-3d645ac257e1.png)
 
-Maintenant je me rends sur Adminer dans ma BDD “portfolio” dans laquelle je vais traduire mon dictionnaire de données dans la BDD (créer les tables, les champs, etc..)
+----
+**2 )** Je me connecte sur Adminer pour crée ma DataBase.
+
+![image](https://user-images.githubusercontent.com/104022785/181300186-0bc67c29-adce-484d-89e0-732f4907fafa.png)
+
+
+Ensuite je crée un fichier .env à la racine de mon projet dans lequel je colle le contenu de .env.example et modifie les données pour relier ma nouvelle DB au projet
+
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=portfolio
+DB_USERNAME=root
+DB_PASSWORD=root
+```
+
+Maintenant sur Adminer dans ma BDD “portfolio” que je viens de crée je vais traduire mon dictionnaire de données (créer les tables, les champs, etc..)
 ![image](https://user-images.githubusercontent.com/104022785/181509261-4d7e95c2-ad4f-47c4-966a-679c3ffea3de.png)
 
 
@@ -77,22 +94,6 @@ Puis je me rend sur mon navigateur et tape dans ma barre d’url :
 </aside>
 
  
-----
-**5 )** Je me connecte sur Adminer pour crée ma DataBase.
-
-![image](https://user-images.githubusercontent.com/104022785/181300186-0bc67c29-adce-484d-89e0-732f4907fafa.png)
-
-
-Ensuite je crée un fichier .env à la racine de mon projet dans lequel je colle le contenu de .env.example et modifie les données pour relier ma nouvelle DB au projet
-
-```
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=portfolio
-DB_USERNAME=root
-DB_PASSWORD=root
-```
 ----
 **6 )** Maintenant nous allons crée notre première route "/" en GET.
 
