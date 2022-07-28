@@ -24,24 +24,3 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 /*           Contact             */
 /***********************************/
 
-// Je déclare un route de méthode GET
-Route::get(
-    // URL de la route
-    '/contacts',
-    [
-        // Le nom complet du controller
-        ContactController::class,
-        // le nom de la méthode
-        'contactGet'
-    ]);
-
-    // Je déclare un route de méthode POST
-Route::post(
-    // URL de la route
-    '/contacts',
-    [
-        // Le nom complet du controller
-        ContactController::class,
-        // le nom de la méthode
-        'contactPost'
-    ]);

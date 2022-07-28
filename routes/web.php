@@ -19,6 +19,10 @@ Route::get('/', function () {
         return view('index');
     });
 
+Route::get('/contacts', function () {
+        return view('contact');
+    });
+
 
 
 
