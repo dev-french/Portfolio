@@ -67,16 +67,16 @@ Ensuite entrer la commande suivante pour mettre à jour nos dépendances :
 composer update
 ```
 ----------------
-Je me connecte sur le serveur [localhost](http://localhost) de PHP en tapant la commande suivant :
+Je me connecte sur le serveur [localhost](http://localhost) de PHP ou Laravel en tapant la commande suivant :
 
 ```php
-`php -S 0.0.0.0:8080 -t public`
+`php -S 0.0.0.0:8080 -t public` ou php artisan serve
 ```
 ----
 Puis je me rend sur mon navigateur et tape dans ma barre d’url :
 
 <aside>
-💡  localhost:8080
+💡  localhost:8080 ou 127.0.0.1:8000
 </aside>
 
  
