@@ -64,7 +64,7 @@ Je me crée une branch via la commande ```git checkout -b routes&API``` sur laqu
 # Etapes du projet (ordre chronologique)
 -----
 
-**1 )** Première étape la conception de mon wireframe (en_cours)
+**1 )** Première étape la conception de mon wireframes  (en_cours)
 
 -----
 
