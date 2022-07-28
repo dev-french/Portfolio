@@ -26,10 +26,11 @@ For the DB part I want to create my own API.
 -------------------------------------------------------------------------------
 
 **Installation de Composer, Laravel & des dépendances.**
+----
 
 Laravel utilise Composer pour gérer ses dépendances. Donc, avant d'utiliser Laravel, je m'assure que Composer est installé sur ma machine. 
 
-**1 )** Création du projet et installation de Laravel via une commande dans le terminal :
+Création du projet et installation de Laravel via une commande dans le terminal :
 ```
 composer create-project laravel/laravel nomDuProjet
 ```
@@ -52,7 +53,7 @@ Puis je me rend sur mon navigateur et tape dans ma barre d’url :
 
 ----
 
-**2 )** Maintenant que mon environnement de travail et mes outils sont prêt je peut :
+Maintenant que mon environnement de travail et mes outils sont prêt je peut :
 
  ```git add . / git commit -m "install composer and Laravel framework" / git push``` 
 
@@ -62,7 +63,14 @@ Je me crée une branch via la commande ```git checkout -b routes&API``` sur laqu
 
 # Etapes du projet (ordre chronologique)
 -----
-**1 )** Je commence par le création du MCD, pour le créer je dois me poser les questions suivantes :
+
+**3 )** Je commence par la rédaction de mes user_stories, elles contiennent toutes les informations nécessaires au développement des différentes fonctionnalités de mon site.
+
+![image](https://user-images.githubusercontent.com/104022785/181569614-537c9ca4-1bfe-4f99-8ae1-2f89ee507643.png)
+
+
+----
+**4 )** Création du MCD, pour le créer je dois me poser les questions suivantes :
 
 - Quelles infos je dois stocker ?
     
@@ -82,7 +90,7 @@ Une fois mon MCD fini je commence à rédiger mon Dictionnaire de données
 ![image](https://user-images.githubusercontent.com/104022785/181504943-90207141-4da4-475a-84aa-3d645ac257e1.png)
 
 ----
-**2 )** Je me connecte sur Adminer pour crée ma DataBase.
+**5 )** Je me connecte sur Adminer pour crée ma DataBase.
 
 ![image](https://user-images.githubusercontent.com/104022785/181300186-0bc67c29-adce-484d-89e0-732f4907fafa.png)
 
@@ -103,7 +111,7 @@ Maintenant sur Adminer dans ma BDD “portfolio” que je viens de crée je vais
 ![image](https://user-images.githubusercontent.com/104022785/181509261-4d7e95c2-ad4f-47c4-966a-679c3ffea3de.png)
  
 ----
-**3 )** Maintenant nous allons crée notre première route principale "/" en GET.
+**6 )** Maintenant nous allons crée notre première route principale "/" en GET.
 
 Dans le dossier **app → Http → Controllers** je crée un fichier MainController avec la méthode home qui fera un echo d'une chaine de caractères sur ma page " / " pour etre sur que notre route et belle est bien crée :
 
@@ -111,7 +119,7 @@ Dans le dossier **app → Http → Controllers** je crée un fichier MainControl
 
 
 ----
-**4 )** Dans le ficher web.php dans le dossier routes je crée ma route ‘/’ de méthode GET et je n’oublie pas le use pour “connecté” mon Controller à ma route :
+**7 )** Dans le ficher web.php dans le dossier routes je crée ma route ‘/’ de méthode GET et je n’oublie pas le use pour “connecté” mon Controller à ma route :
 
 ![image](https://user-images.githubusercontent.com/104022785/181300069-b1d1a86d-bf37-42f8-833f-01e2e93074e8.png)
 
