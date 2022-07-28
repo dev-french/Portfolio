@@ -377,7 +377,8 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
                             </div>
                         </div>
                         <ul class="actions">
-                            <li><input type="submit" value="Send Message" class="primary" /></li>
+                            <li><input type="submit" value="Send Message" class="primary" /></li></a>
+                            <!-- <input onclick="window.location.href = 'https://website.com/my-account';" type="submit" value="Submit request" />  Technique pour l'affichage en front end-->
                             <li><input type="reset" value="Reset" /></li>
                         </ul>
                     </form>
@@ -387,6 +388,9 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
         </div>
     </section>
 
+
+    <button onclick="location.href='{{ url('contacts')}}'">
+     Check Stock</button>
     <!-- Section -->
     <section>
 
