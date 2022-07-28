@@ -95,7 +95,7 @@ Maintenant sur Adminer dans ma BDD “portfolio” que je viens de crée je vais
 ![image](https://user-images.githubusercontent.com/104022785/181509261-4d7e95c2-ad4f-47c4-966a-679c3ffea3de.png)
  
 ----
-**6 )** Maintenant nous allons crée notre première route principale "/" en GET.
+**3 )** Maintenant nous allons crée notre première route principale "/" en GET.
 
 Dans le dossier **app → Http → Controllers** je crée un fichier MainController avec la méthode home qui fera un echo d'une chaine de caractères sur ma page " / " pour etre sur que notre route et belle est bien crée :
 
@@ -103,7 +103,7 @@ Dans le dossier **app → Http → Controllers** je crée un fichier MainControl
 
 
 ----
-**7 )** Dans le ficher web.php dans le dossier routes je crée ma route ‘/’ de méthode GET et je n’oublie pas le use pour “connecté” mon Controller à ma route :
+**4 )** Dans le ficher web.php dans le dossier routes je crée ma route ‘/’ de méthode GET et je n’oublie pas le use pour “connecté” mon Controller à ma route :
 
 ![image](https://user-images.githubusercontent.com/104022785/181300069-b1d1a86d-bf37-42f8-833f-01e2e93074e8.png)
 
@@ -113,7 +113,7 @@ J’actualise mon navigateur et l’affichage de notre echo prouve que notre rou
 
 
 ---------
-**8 )** Maintenant que mon environnement de travail et mes outils sont prêt je peut :
+**5 )** Maintenant que mon environnement de travail et mes outils sont prêt je peut :
 
  ```git add . / git commit -m "install composer and Laravel framework" / git push``` 
 
@@ -124,8 +124,6 @@ Je me crée une branch via la commande ```git checkout -b routes&API``` sur laqu
 # Mes Questions
 
 un repo front & un repo back ? ou tout en 1 ?
-
-Insomnia sera il utile sur ce projet ?
 
 Se renseigner sur Docker ?
 
