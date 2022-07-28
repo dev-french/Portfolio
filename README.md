@@ -31,26 +31,14 @@ For the DB part I want to create my own API.
 
 - Quelles infos je dois stocker ?
     
-    _ Nom & Prénom
-    
-    _ Email
-    
-    _ Téléphone
-    
-    _ Message
-    
 - Sur quoi je dois faire un CRUD (c'est ce qui me donnera mes entités)
-    
-    _ 
     
 - Comment ces infos sont liées entre elles ? (ça me donnera mes relations)
  
-    _
 
 Ensuite je me rends sur http://mocodo.wingi.net pour renseigner les entités, associations, attributs, identifiants, cardinalités de ma BDD
 
-![image](https://user-images.githubusercontent.com/104022785/181490834-b4983c0d-865a-49dc-9e43-90b2c2a3f3cb.png)
-
+![image](https://user-images.githubusercontent.com/104022785/181497450-68016dca-8acd-455a-a8f9-effefaab3b90.png)
 
 
 ---
