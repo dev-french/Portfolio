@@ -49,8 +49,9 @@ For the DB part I want to create my own API.
 
 Ensuite je me rends sur http://mocodo.wingi.net pour renseigner les entités, associations, attributs, identifiants, cardinalités de ma BDD
 
+![image](https://user-images.githubusercontent.com/104022785/181490834-b4983c0d-865a-49dc-9e43-90b2c2a3f3cb.png)
 
-![image](https://user-images.githubusercontent.com/104022785/181300257-44edd819-6409-4a14-b0ab-335167a27939.png)
+
 
 ---
 **Installation de Composer, Laravel & des dépendances.**
