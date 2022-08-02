@@ -389,7 +389,7 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
     </section>
 
 
-    <button onclick="location.href='{{ url('contacts')}}'">
+    <button href= "{{ Route::get('contacts') }}">
      Check Stock</button>
     <!-- Section -->
     <section>
