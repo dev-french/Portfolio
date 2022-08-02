@@ -26,14 +26,14 @@
         <section class="panel banner right">
             <div class="content color0 span-3-75">
                 <h1 class="major">Hello, my name<br />
-                    is Ethereal</h1>
+                    is Aïssa</h1>
                 <p>This is <strong>Ethereal</strong>, a free site template by AJ for <a href="https://html5up.net">HTML5 UP</a>. It’s fully responsive, built on HTML5 and CSS3, and released entirely for free under the Creative Commons license. Hope you dig it :)</p>
                 <ul class="actions">
                     <li><a href="#first" class="button primary color1 circle icon solid fa-angle-right">Next</a></li>
                 </ul>
             </div>
             <div class="image filtered span-1-75" data-position="25% 25%">
-                <img src="images/pic01.jpg" alt="" />
+            <img src = "{{ asset('/images/pic01.png') }}" />
             </div>
         </section>
 
