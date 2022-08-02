@@ -19,17 +19,17 @@
         <!-- Wrapper -->
         <div id="wrapper">
 
-            <!-- Panel (Banner) -->
+            <!-- Home Page-->
             <section class="panel banner right">
                 <div class="content color0 span-3-75">
                     <h1 class="major">Aïssa<br />
                         Développeur full stack</h1>
-                    <p><strong>Créateur de solutions numériques</strong>,<br /> je suis spécialisé dans le développement d'applications web & mobile<br />et la construction d'expériences utilisateur. Je fournis un service de développement d'applications Full-stack en utilisant différentes stacks selon les missions.<br />
+                    <p><strong>Créateur de solutions numériques</strong>,<br /> je suis spécialisé dans le <strong>développement d'applications Web & mobile</strong><br />et la construction d'expériences utilisateur. Je fournis un service de développement d'applications <strong>Full-stack</strong> en utilisant différentes stacks selon les missions.<br />
                     <br />
-                        Si vous souhaitez me contacter, ou si vous avez simplement besoin d'un renseignement, vous pouvez me contacter via mes réseaux sociaux ou en cliquant sur le bouton ci-dessous</p>
+                    Vous pouvez télécharger mon CV, ou bien me contacter en cliquant sur les boutons ci-dessous</p>
                         <ul class="actions">
-                            <li><a href="#" class="button primary color2">Contactez-moi</a></li>
                             <li><a href="#" class="button">Télécharger mon CV</a></li>
+                            <li><a href="#" class="button primary color2">Contactez-moi</a></li>
                         </ul>
                 </div>
                 <div class="image filtered span-1-75" data-position="25% 25%">
@@ -37,7 +37,7 @@
                 </div>
             </section>
 
-            <!-- Panel (Spotlight) -->
+            <!-- Biography -->
             <section class="panel spotlight medium right" id="first">
                 <div class="content span-7">
                     <h2 class="major">Aventurier dans l'âme</h2>
@@ -48,10 +48,10 @@
                 </div>
             </section>
 
-            <!-- Panel -->
+            <!-- Skills -->
             <section class="panel color1">
                 <div class="intro joined">
-                    <h2 class="major">Skills</h2>
+                    <h2 class="major">My Skills</h2>
                     <p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
                 </div>
                 <div class="inner">
@@ -139,11 +139,10 @@
                     </div>
                     <div class="span-1-5">
                         <ul class="contact-icons color1">
-                            <li class="icon brands fa-twitter"><a href="#">@untitled-tld</a></li>
-                            <li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled</a></li>
-                            <li class="icon brands fa-snapchat-ghost"><a href="#">@untitled-tld</a></li>
-                            <li class="icon brands fa-instagram"><a href="#">@untitled-tld</a></li>
-                            <li class="icon brands fa-medium-m"><a href="#">medium.com/untitled</a></li>
+                            <li class="icon brands fa-twitter"><a href="https://twitter.com/1Dev_french" target="blank">@1Dev_french</a></li>
+                            <li class="icon brands fa-facebook-f"><a href="https://www.facebook.com" target="blank">facebook.com</a></li>
+                            <li class="icon brands fa-instagram"><a href="https://www.instagram.com/?hl=fr" target="blank">@1Dev_french</a></li>
+
                         </ul>
                     </div>
                 </div>
