@@ -115,6 +115,53 @@ Maintenant sur Adminer dans ma BDD “portfolio” que je viens de crée je vais
 ![image](https://user-images.githubusercontent.com/104022785/181509261-4d7e95c2-ad4f-47c4-966a-679c3ffea3de.png)
  
 ----
+
+# Intégrer un template sur son  projet avec Laravel 8
+
+**1 )** Placer le fichier index.html à la racine du dossier views qui se trouve dans le dossier ressources
+
+**2 )** Placer vos dossier css img js etc… dans le dossier public  de votre projet 
+
+![image](https://user-images.githubusercontent.com/104022785/182322286-a384d10e-7b3b-4554-b781-a9b5309907b2.png)
+
+
+**3 )** A la racine du dossier views crée un fichier layout.blade.php dans lequel vous le collez le contenu de index.html puis (une fois fini supprimer index.html & welcome.blade.php) .
+
+**4 )** Dans le dossier routes → web.php mettre le nom de la view a renvoyé
+
+![image](https://user-images.githubusercontent.com/104022785/182321746-66217eff-b28b-47fd-841b-33ec3d025dbf.png)
+
+
+**5 )** Je divise le code de mes templates en fichiers puis je crée un dossier Partials & Utils dans lequel vont se trouver les différents templates 
+
+![image](https://user-images.githubusercontent.com/104022785/182321775-f4ed0e37-d0c2-4624-a18e-e8d7015f6f80.png)
+
+
+# Syntaxe de Laravel 8 🤓
+
+Dans Laravel la syntaxe des liens src & href s’écrit comme ceci :
+
+```php
+{{url(’directory/file’)}}
+```
+
+exemple :
+
+```php
+<link rel="stylesheet" href="{{url('css/main.css')}}" />
+```
+
+Pour inclure un template dans un fichier sur Laravel 8 il faut utiliser la syntaxe suivante:
+
+```php
+@include(’directory.file’)
+```
+
+**Liens vers la doc du Framework :**
+https://laravel.com/docs/8.x/blade#layouts-using-components
+
+----
+
 **5 )** Maintenant nous allons crée notre première route principale "/" en GET.
 
 Dans le dossier **app → Http → Controllers** je crée un fichier MainController avec la méthode home qui fera un echo d'une chaine de caractères sur ma page " / " pour etre sur que notre route et belle est bien crée :
