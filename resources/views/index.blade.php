@@ -37,6 +37,7 @@
                 </div>
             </section>
 
+
             <!-- Biography -->
             <section class="panel spotlight medium right" id="first">
                 <div class="content span-7">
@@ -48,6 +49,7 @@
                     <img src="images/pic02.jpg" alt="" />
                 </div>
             </section>
+
 
             <!-- Skills -->
             <section class="panel color2">
@@ -67,6 +69,7 @@
                 </div>
             </section>
 
+
             <!-- Projects -->
             <section class="panel">
                 <div class="intro color1">
@@ -83,6 +86,7 @@
                     <a href="images/gallery/fulls/04.jpg" class="image filtered span-2-5" data-position="top"><img src="images/gallery/thumbs/04.jpg" alt="" /></a>
                 </div>
             </section>
+
 
             <!-- Contact -->
             <section class="panel color4-alt">
