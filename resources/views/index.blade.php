@@ -37,22 +37,25 @@
                 </div>
             </section>
 
+
             <!-- Biography -->
             <section class="panel spotlight medium right" id="first">
                 <div class="content span-7">
-                    <h2 class="major">Aventurier dans l'âme</h2>
-                    <p>Mauris et ligula arcu. Proin dapibus convallis accumsan. Lorem maximus hendrerit orci, sit amet elementum massa hendrerit sed. Donec et ullamcorper ligula. Suspendisse amet potenti. Ut pretium libero eleifend euismod sed tristique. Quisque dictum magna risus, id ultricies justo sagittis vitae. Sed id odio tempor, porttitor elit amet, gravida hendrerit fringilla lorem ipsum dolor.</p>
+                    <h2 class="major">A propos de moi</h2>
+                    <p>Hello ! Je m’appelle Aïssa Ghedbane.<br /> Développeur Web & Mobile étudiant chez O'clock en formation intensive ( socle PHP de 4 mois, spécialisation React 1 mois, projets en équipe 1 mois. ), mes hobbies sont le sport & les balades en pleine nature, je suis aussi passionée par l'informatique en général  et les jeux vidéos.
+                    </p>
                 </div>
                 <div class="image filtered tinted" data-position="top left">
                     <img src="images/pic02.jpg" alt="" />
                 </div>
             </section>
 
+
             <!-- Skills -->
-            <section class="panel color1">
+            <section class="panel color2">
                 <div class="intro joined">
                     <h2 class="major">My Skills</h2>
-                    <p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
+                    <p>Mes skills sont en constantes améliorations car ma veille techno ainsi que ma pratique du code et quotidienne. Mes expériences professionnelles me permettent d'être aujourd'hui <strong>Autonome, Polyvalent</strong> et de disposer des compétences techniques dont voici un aperçu.</p>
                 </div>
                 <div class="inner">
                     <ul class="grid-icons three connected">
@@ -66,11 +69,12 @@
                 </div>
             </section>
 
+
             <!-- Projects -->
             <section class="panel">
-                <div class="intro color2">
+                <div class="intro color1">
                     <h2 class="major">Projects</h2>
-                    <p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
+                    <p>Dans cette section je vous présente les différents projets que j'ai réaliser seul ou en équipe, crée avec plusieurs technologies diverses & variées</p>
                 </div>
                 <div class="gallery">
                     <div class="group span-4-5">
@@ -82,6 +86,7 @@
                     <a href="images/gallery/fulls/04.jpg" class="image filtered span-2-5" data-position="top"><img src="images/gallery/thumbs/04.jpg" alt="" /></a>
                 </div>
             </section>
+
 
             <!-- Contact -->
             <section class="panel color4-alt">
