@@ -16,12 +16,9 @@ use App\Http\Controllers\MainController; // ! Ajouter le Controller en question
 // Je déclare un route de méthode GET
 
 Route::get('/', function () {
-        return view('index');
+        return view('layout');
     });
 
-Route::get('/contacts', function () {
-        return view('contact');
-    });
 
 
 

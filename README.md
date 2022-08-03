@@ -157,6 +157,10 @@ Pour inclure un template dans un fichier sur Laravel 8 il faut utiliser la synta
 @include(’directory.file’)
 ```
 
+### Syntaxe pour les liens des images ( pour les versions ultérieurs à Laravel 5.7 )
+
+```<img src = "{{ asset('/images/image_name.png') }}" />```
+
 **Liens vers la doc du Framework :**
 https://laravel.com/docs/8.x/blade#layouts-using-components
 
