@@ -3477,7 +3477,7 @@ input, select, textarea {
 		flex-shrink: 1;
 		height: 100vh;
 		padding: 5rem;
-        background: linear-gradient(90deg, #9237dd,#3b0483);
+        background: linear-gradient(90deg, #eeeae8,#817f7e);
 	}
 
 		@media screen and (orientation: portrait) {

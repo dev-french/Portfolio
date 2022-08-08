@@ -1,5 +1,5 @@
   <!-- Skills -->
-  <section style="background-color: #5E453C;" class="panel">
+  <section style="background: linear-gradient(90deg, #eeeae8,#817f7e);" class="panel">
       <div class="intro joined">
           <h2 class="major">My Skills</h2>
           <p>Mes skills sont en constantes améliorations car ma veille techno ainsi que ma pratique du code et quotidienne. Mes expériences professionnelles me permettent d'être aujourd'hui <strong>Autonome, Polyvalent</strong> et de disposer des compétences techniques dont voici un aperçu.</p>

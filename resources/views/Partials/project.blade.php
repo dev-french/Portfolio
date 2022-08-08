@@ -1,8 +1,8 @@
 <!-- Projects -->
-<section style="background-color: #000;" class="panel">
+<section style="background: linear-gradient(180deg, #eeeae8,#817f7e);" class="panel">
                 <div class="intro">
                     <h2 class="major">Projects</h2>
-                    <p>Dans cette section je vous présente les différents projets que j'ai réaliser seul ou en équipe, crée avec plusieurs technologies diverses & variées</p>
+                    <p>Dans cette section je vous présente les différents projets que j'ai réaliser seul ou en équipe, crée avec plusieurs technologies diverses & variées.</p>
                 </div>
                 <div class="gallery">
                     <div class="group span-4-5">
