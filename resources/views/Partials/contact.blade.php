@@ -1,5 +1,5 @@
 <!-- Contact -->
-<section style="background-color: #000;" class="panel">
+<section id="contact" style="background-color: #000;" class="panel">
                 <div style="background-color: #000;" class="intro">
                     <h2 class="major">Contactez-moi</h2>
                     <h4>Détails</h4>
