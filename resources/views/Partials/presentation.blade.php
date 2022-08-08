@@ -1,5 +1,5 @@
 <!-- Home Page-->
-<section  style="background: linear-gradient(180deg, #eeeae8,#817f7e);" class="panel banner right">
+<section id="acceuil" style="background: linear-gradient(180deg, #eeeae8,#817f7e);" class="panel banner right">
                 <div class="content span-3-75">
                     <h1 class="major">Aïssa<br />
                         Développeur full stack</h1>
