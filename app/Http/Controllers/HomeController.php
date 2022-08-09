@@ -16,10 +16,11 @@ class HomeController extends Controller {
         $message = new Message();
 
         $message->email = $request->email;
-        $message->name = $request->name;
         $message->subject = $request->subject;
         $message->contenu = $request->contenu;
 
-        dd($message);
+        $message->save(); // sauvegarde dans la database
+
+        return redirect()->route('index'); // redirige vers ma page d'acceuil
     }
 }
