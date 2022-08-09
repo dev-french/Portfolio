@@ -43,7 +43,7 @@
                         <label for="demo-priority-high">I'm a robot :)</label>
                     </div>
                     <div class="field">
-                        <textarea name="message" id="demo-message" placeholder="Votre message ..." rows="2"></textarea>
+                        <textarea name="contenu" id="demo-message" placeholder="Votre message ..." rows="2"></textarea>
                     </div>
                 </div>
                 <ul class="actions">
@@ -51,7 +51,7 @@
                 </ul>
             </form>
         </div>
-        <?php
+        <!-- ?php
         if (isset($_POST["message"])) {
             $message = "Ce message vous a été envoyé via la page de contact de votre portfolio
                         Name : " . $_POST["name"] . "
@@ -63,7 +63,7 @@
                 echo "<p>L'email a bien été envoyé.</p>";
             }
         }
-        ?>
+        ?> -->
 
 
         <div class="span-1-5">
