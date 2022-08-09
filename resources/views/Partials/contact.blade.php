@@ -1,8 +1,7 @@
 <!-- Contact -->
-<section id="contact" style="background: linear-gradient(180deg, #eeeae8,#817f7e);" class="panel">
-    <div style="background: linear-gradient(180deg, #eeeae8,#817f7e);" class="intro">
+<section id="contact" style="background: linear-gradient(80deg, #131212,#eeeae8);" class="panel">
+    <div style="background: linear-gradient(180deg, #eeeae8,#131212);" class="intro">
         <h2 class="major">Contactez-moi</h2>
-        <h4>Détails</h4>
         <ul class="alt">
             <li><strong>Localisation</strong> : Paris, France</li>
             <li><strong>Tel</strong> : 06.98.61.49.81</li>

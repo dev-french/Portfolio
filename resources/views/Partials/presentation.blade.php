@@ -1,9 +1,9 @@
 <!-- Home Page-->
-<section id="acceuil" style="background: linear-gradient(180deg, #eeeae8,#817f7e);" class="panel banner right">
+<section id="acceuil" style="background: linear-gradient(180deg, #131212,#eeeae8);" class="panel banner right">
                 <div class="content span-3-75">
                     <h1 class="major">Aïssa<br />
                         Développeur full stack</h1>
-                    <p><strong>Créateur de solutions numériques</strong>,<br /> je suis spécialisé dans le <strong>développement d'applications Web & mobile</strong><br />et la construction d'expériences utilisateur. Je fournis un service de développement d'applications <strong>Full-stack</strong> en utilisant différentes stacks selon les missions.<br />
+                    <p>Créateur de solutions numériques,<br /> je suis spécialisé dans le développement d'applications Web & mobile<br />et la construction d'expériences utilisateur. Je fournis un service de développement d'applications Full-stack en utilisant différentes stacks selon les missions.<br />
                     <br />
                     Vous pouvez télécharger mon CV, ou bien me contacter en cliquant sur les boutons ci-dessous.</p>
                         <ul class="actions">
