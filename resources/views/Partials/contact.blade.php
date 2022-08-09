@@ -25,7 +25,7 @@
                     <div class="field third">
                         <label for="demo-category">Motif</label>
                         <div class="select-wrapper">
-                            <select name="sujet" id="demo-category" required>
+                            <select name="subject" id="demo-category" required>
                                 <option value="">-</option>
                                 <option value="1">Prise de rendez-vous</option>
                                 <option value="2">Offre d'emploi</option>
@@ -54,11 +54,11 @@
         <?php
         if (isset($_POST["message"])) {
             $message = "Ce message vous a été envoyé via la page de contact de votre portfolio
-                        Nom : " . $_POST["name"] . "
+                        Name : " . $_POST["name"] . "
                         Email : " . $_POST["email"] . "
                         Message : " . $_POST["message"];
 
-            $retour = mail("aiss.ghed@gmail.com", $_POST["sujet"], $message, "From:aissa.ghedbane@gmail.com" . "\r\n" . "Reply-to:" . $_POST["email"]);
+            $retour = mail("aiss.ghed@gmail.com", $_POST["subject"], $message, "From:aissa.ghedbane@gmail.com" . "\r\n" . "Reply-to:" . $_POST["email"]);
             if ($retour) {
                 echo "<p>L'email a bien été envoyé.</p>";
             }
