@@ -36,11 +36,11 @@
                         </div>
                     </div>
                     <div class="field quarter">
-                        <input type="radio" id="demo-priority-low" name="demo-priority" class="color2">
+                        <input type="radio" id="demo-priority-low" name="demo-priority" class="color1">
                         <label for="demo-priority-low">I'm not a robot</label>
                     </div>
                     <div class="field quarter">
-                        <input type="radio" id="demo-priority-high" name="demo-priority" class="color2" checked>
+                        <input type="radio" id="demo-priority-high" name="demo-priority" class="color1" checked>
                         <label for="demo-priority-high">I'm a robot :)</label>
                     </div>
                     <div class="field">

@@ -24,8 +24,8 @@ class HomeController extends Controller {
 
         $message->save(); // sauvegarde dans la database
 
-        // mail envoyé à l'adresse mail contenu dans "email"
-        Mail::to($message->email)->send(new ContactMail ($message));
+        //Juste après la sauvegarde dans la database un mail me sera envoyé
+        Mail::to("aiss.ghed@gmail.com")->send(new ContactMail ($message));
 
         return redirect()->route('index'); // redirige vers ma page d'acceuil
 
