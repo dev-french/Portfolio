@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\MainController; // ! Ajouter le Controller en question
+use App\Http\Controllers\HomeController; // ! Ajouter le Controller en question
+use Illuminate\Http\Request;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,14 +16,8 @@ use App\Http\Controllers\MainController; // ! Ajouter le Controller en question
 
 // Je déclare un route de méthode GET
 
-Route::get('/', function () {
-        return view('index');
-    });
-
-
-
-
-
-
-
-
+// Route::get('/', function () {
+//     return view('index');
+// });
+Route::get('/',[HomeController::class,'home'])->name('index');
+Route::post('/',[HomeController::class,'contactSend'])->name('contactSendPage');

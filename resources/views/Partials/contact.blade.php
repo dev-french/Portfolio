@@ -12,39 +12,38 @@
     <div class="inner columns divided">
         <div class="span-4-5">
             <h3 class="major">Formulaire de contact</h3>
-            <form method="post" action="#">
+
+            <form method="POST" action="">
+                @csrf
                 <div class="fields">
                     <div class="field third">
-                        <label for="demo-name">Nom & Prénom</label>
-                        <input type="text" name="demo-name" id="demo-name" value="" placeholder="Votre Nom & Prénom" />
+                        <input type="text" name="name" id="demo-name" value="" placeholder="Votre Nom & Prénom" required>
                     </div>
                     <div class="field third">
-                        <label for="demo-email">E-mail</label>
-                        <input type="email" name="demo-email" id="demo-email" value="" placeholder="Votre @dresse E-mail" />
+                        <input type="email" name="email" id="demo-email" value="" placeholder="Votre @dresse E-mail" required>
                     </div>
                     <div class="field third">
                         <label for="demo-category">Motif</label>
                         <div class="select-wrapper">
-                            <select name="demo-category" id="demo-category">
+                            <select name="sujet" id="demo-category" required>
                                 <option value="">-</option>
                                 <option value="1">Prise de rendez-vous</option>
-                                <option value="1">Offre d'emploi</option>
-                                <option value="1">Question ?</option>
-                                <option value="1">Autres ...</option>
+                                <option value="2">Offre d'emploi</option>
+                                <option value="3">Question ?</option>
+                                <option value="4">Autres ...</option>
                             </select>
                         </div>
                     </div>
                     <div class="field quarter">
-                        <input type="radio" id="demo-priority-low" name="demo-priority" class="color2" />
+                        <input type="radio" id="demo-priority-low" name="demo-priority" class="color2" required>
                         <label for="demo-priority-low">I'm not a robot</label>
                     </div>
                     <div class="field quarter">
-                        <input type="radio" id="demo-priority-high" name="demo-priority" class="color2" checked />
+                        <input type="radio" id="demo-priority-high" name="demo-priority" class="color2" checked>
                         <label for="demo-priority-high">I'm a robot :)</label>
                     </div>
                     <div class="field">
-                        <label for="demo-message">Message :</label>
-                        <textarea name="demo-message" id="demo-message" placeholder="Votre message ..." rows="2"></textarea>
+                        <textarea name="message" id="demo-message" placeholder="Votre message ..." rows="2"></textarea>
                     </div>
                 </div>
                 <ul class="actions">
@@ -52,6 +51,21 @@
                 </ul>
             </form>
         </div>
+        <?php
+        if (isset($_POST["message"])) {
+            $message = "Ce message vous a été envoyé via la page de contact de votre portfolio
+                        Nom : " . $_POST["name"] . "
+                        Email : " . $_POST["email"] . "
+                        Message : " . $_POST["message"];
+
+            $retour = mail("aiss.ghed@gmail.com", $_POST["sujet"], $message, "From:aissa.ghedbane@gmail.com" . "\r\n" . "Reply-to:" . $_POST["email"]);
+            if ($retour) {
+                echo "<p>L'email a bien été envoyé.</p>";
+            }
+        }
+        ?>
+
+
         <div class="span-1-5">
             <ul class="contact-icons color1">
                 <li class="icon fa-brands fa-twitter"><a href="https://twitter.com/1Dev_french" target="blank">Mon Twitter</a></li>
