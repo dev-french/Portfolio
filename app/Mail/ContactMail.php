@@ -2,23 +2,28 @@
 
 namespace App\Mail;
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
+
+
 class ContactMail extends Mailable
 {
     use Queueable, SerializesModels;
+
+    public $message;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($message)
     {
-        //
+        $this->message = $message;
     }
 
     /**

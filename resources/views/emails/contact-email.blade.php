@@ -1,7 +1,10 @@
 @component('mail::message')
 # Bonjour Aïssa,
 
-Tu as reçu un nouveau message dans ta database !
+Tu as reçu un nouvelle Email via ton formulaire de contact :<br>
+
+{{ $message }}<br>
+
 
 Cordialement,<br>
 

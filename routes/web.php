@@ -14,10 +14,7 @@ use Illuminate\Http\Request;
 |
 */
 
-// Je déclare un route de méthode GET
 
-// Route::get('/', function () {
-//     return view('index');
-// });
-Route::get('/',[HomeController::class,'home'])->name('index');
-Route::post('/',[HomeController::class,'contactSend'])->name('contactSendPage');
+Route::get('/',[HomeController::class,'home'])->name('index'); // Je déclare ma route principal en méthode get
+
+Route::post('/',[HomeController::class,'contactSend'])->name('contactSendPage'); // Je déclare une route en post pour récupérer les informations de mon formulaire
