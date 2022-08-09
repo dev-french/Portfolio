@@ -15,6 +15,7 @@
 
             <form method="POST" action="">
                 @csrf
+                <!--PROTECTION: permet d'attribué un token à chaque personne qui remplis le formulaire -->
                 <div class="fields">
                     <div class="field third">
                         <input type="text" name="name" id="demo-name" value="" placeholder="Votre Nom & Prénom" required>
@@ -35,7 +36,7 @@
                         </div>
                     </div>
                     <div class="field quarter">
-                        <input type="radio" id="demo-priority-low" name="demo-priority" class="color2" required>
+                        <input type="radio" id="demo-priority-low" name="demo-priority" class="color2">
                         <label for="demo-priority-low">I'm not a robot</label>
                     </div>
                     <div class="field quarter">
@@ -43,7 +44,7 @@
                         <label for="demo-priority-high">I'm a robot :)</label>
                     </div>
                     <div class="field">
-                        <textarea name="contenu" id="demo-message" placeholder="Votre message ..." rows="2"></textarea>
+                        <textarea name="contenu" id="demo-message" placeholder="Votre message ..." rows="2" required></textarea>
                     </div>
                 </div>
                 <ul class="actions">
@@ -51,21 +52,6 @@
                 </ul>
             </form>
         </div>
-        <!-- ?php
-        if (isset($_POST["message"])) {
-            $message = "Ce message vous a été envoyé via la page de contact de votre portfolio
-                        Name : " . $_POST["name"] . "
-                        Email : " . $_POST["email"] . "
-                        Message : " . $_POST["message"];
-
-            $retour = mail("aiss.ghed@gmail.com", $_POST["subject"], $message, "From:aissa.ghedbane@gmail.com" . "\r\n" . "Reply-to:" . $_POST["email"]);
-            if ($retour) {
-                echo "<p>L'email a bien été envoyé.</p>";
-            }
-        }
-        ?> -->
-
-
         <div class="span-1-5">
             <ul class="contact-icons color1">
                 <li class="icon fa-brands fa-twitter"><a href="https://twitter.com/1Dev_french" target="blank">Mon Twitter</a></li>

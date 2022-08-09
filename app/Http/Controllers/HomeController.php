@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactMail;
 use App\Models\Message;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller {
 
@@ -21,6 +23,9 @@ class HomeController extends Controller {
 
         $message->save(); // sauvegarde dans la database
 
+        Mail::to($message->email)->send(new ContactMail());
+
         return redirect()->route('index'); // redirige vers ma page d'acceuil
+
     }
 }
