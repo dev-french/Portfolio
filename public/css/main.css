@@ -70,6 +70,16 @@ input, select, textarea {
 	appearance: none;
 }
 
+#darkMode {
+
+    margin-bottom: auto;
+    position: relative;
+    right: 60px;
+    bottom: 60px;
+
+
+}
+
 /* Page */
 
 	@-moz-keyframes load-spinner {

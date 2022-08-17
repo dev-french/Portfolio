@@ -9,6 +9,7 @@
                         <ul class="actions">
                             <li><a href="{{url('https://drive.google.com/file/d/1H5VbfN15qxqWa9HWzc9Owf65jFIEPfM-/view?usp=sharing')}}" target="blank" class="button primary color2">Télécharger mon CV</a></li>
                             <li><a href="#contact" class="button primary color4">Contactez-moi</a></li>
+
                         </ul>
                 </div>
                 <div class="image filtered span-1-75" data-position="25% 25%">
