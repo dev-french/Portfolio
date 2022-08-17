@@ -16,6 +16,8 @@
 
     <!-- Page Wrapper -->
     <div id="page-wrapper">
-    <a href="#" id="darkMode" class="button primary color4">Dark</a>
-        <!-- Wrapper -->
+
+    <!-- <a href="#" id="darkMode" class="button primary color4">Dark</a> -->
+
+         <!-- Wrapper -->
         <div id="wrapper">

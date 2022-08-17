@@ -7,7 +7,7 @@
                     <br />
                     Vous pouvez télécharger mon CV, ou bien me contacter en cliquant sur les boutons ci-dessous.</p>
                         <ul class="actions">
-                            <li><a href="{{url('https://drive.google.com/file/d/1H5VbfN15qxqWa9HWzc9Owf65jFIEPfM-/view?usp=sharing')}}" target="blank" class="button primary color2">Télécharger mon CV</a></li>
+                            <li><a href="{{url('https://drive.google.com/file/d/1ZawufShZIhWZDg9lzoh9dxT1gMwngiMV/view?usp=sharing')}}" target="blank" class="button primary color2">Télécharger mon CV</a></li>
                             <li><a href="#contact" class="button primary color4">Contactez-moi</a></li>
 
                         </ul>
