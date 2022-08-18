@@ -3578,7 +3578,7 @@ input, select, textarea {
         background: linear-gradient(90deg, #f5f2f1,#685048);
 	}
     #page-wrapper.dark{
-        background: linear-gradient(90deg, #1d1d1c,#030303);
+        background: linear-gradient(90deg, #030303,#030303);
         display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;

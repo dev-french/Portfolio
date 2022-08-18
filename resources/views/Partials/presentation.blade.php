@@ -34,14 +34,14 @@
                 if (page.classList.contains('light')) {
                     page.classList.add('dark');
                     page.classList.remove('light');
-                    btnToggle.innerHTML = "🌙"
+                    btnToggle.innerHTML = "🌞"
 
 
                 } else if (page.classList.contains('dark')) {
 
                     page.classList.add('light');
                     page.classList.remove('dark');
-                    btnToggle.innerHTML = "🌞"
+                    btnToggle.innerHTML = "🌙"
                 }
             })
 
