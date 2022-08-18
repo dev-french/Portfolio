@@ -49,7 +49,6 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
-
 a.button.primary.color3 {
     width: 100px;
 
@@ -118,10 +117,21 @@ input, select, textarea {
 	appearance: none;
 }
 
-#profil {
+.btn-toggle {
 
+    right: 20px;
     position: absolute;
-    font-size: 2rem;
+    font-size: 2.5em;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: .1s linear;
+    color: white;
+
+
+}
+.btn-toggle:hover {
+    transform:scale(1.5);
+    color: white;
 
 }
 
@@ -3542,7 +3552,7 @@ input, select, textarea {
 
 /* Page Wrapper  */
 
-	#page-wrapper {
+	#page-wrapper.light{
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3567,6 +3577,32 @@ input, select, textarea {
 		padding: 5rem;
         background: linear-gradient(90deg, #f5f2f1,#685048);
 	}
+    #page-wrapper.dark{
+        background: linear-gradient(90deg, #1d1d1c,#030303);
+        display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		-moz-justify-content: -moz-flex-start;
+		-webkit-justify-content: -webkit-flex-start;
+		-ms-justify-content: -ms-flex-start;
+		justify-content: flex-start;
+		-moz-flex-grow: 1;
+		-webkit-flex-grow: 1;
+		-ms-flex-grow: 1;
+		flex-grow: 1;
+		-moz-flex-shrink: 1;
+		-webkit-flex-shrink: 1;
+		-ms-flex-shrink: 1;
+		flex-shrink: 1;
+		height: 100vh;
+		padding: 5rem;
+
+    }
 
 		@media screen and (orientation: portrait) {
 

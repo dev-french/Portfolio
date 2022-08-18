@@ -15,12 +15,7 @@
 
 
     <!-- Page Wrapper -->
-    <div id="page-wrapper">
-
-
-
-
-
+    <div class="light" id="page-wrapper">
 
          <!-- Wrapper -->
         <div id="wrapper">
