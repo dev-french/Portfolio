@@ -53,9 +53,9 @@
         </div>
         <div class="span-1-5">
             <ul class="contact-icons color1">
-                <li class="icon fa-brands fa-twitter"><a href="https://twitter.com/1Dev_french" target="blank">Mon Twitter</a></li>
-                <li class="icon fa-brands fa-linkedin"><a href="https://www.linkedin.com/in/aïssa-ghedbane-2b740a238/" target="blank">Mon LinkeDIn</a></li>
-                <li class="icon fa-brands fa-github"><a href="https://github.com/Aissa-Ghedbane" target="blank">Mon GitHub</a></li>
+                <li><a class="icon fa-brands fa-twitter" href="https://twitter.com/1Dev_french" target="blank"></a></li>
+                <li><a class="icon fa-brands fa-linkedin" href="https://www.linkedin.com/in/aïssa-ghedbane-2b740a238/" target="blank"></a></li>
+                <li><a class="icon fa-brands fa-github" href="https://github.com/Aissa-Ghedbane" target="blank"></a></li>
             </ul>
             <ul class="actions">
                 <li><a href="#acceuil" class="button primary color2" style="margin-top:40px;">Retour Page d'Acceuil</a></li>

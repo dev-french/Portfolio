@@ -48,6 +48,7 @@ table {
 body {
 	-webkit-text-size-adjust: none;
 }
+
 p {
     font-weight: 500;
     color: #eeeae8;
@@ -887,6 +888,33 @@ input, select, textarea {
         display: none;
     }
 
+    .icon.fa-brands.fa-twitter{
+        font-size: 2em;
+        transition: .1s linear;
+        margin-left: 100px;
+    }
+    .icon.fa-brands.fa-linkedin{
+        font-size: 2em;
+        transition: .1s linear;
+        margin-left: 100px;
+    }
+    .icon.fa-brands.fa-github{
+        font-size: 2em;
+        transition: .1s linear;
+        margin-left: 100px;
+    }
+    .icon.fa-brands.fa-twitter:hover {
+        transform:scale(1.8);
+        color: white;
+    }
+    .icon.fa-brands.fa-linkedin:hover {
+        transform:scale(1.8);
+        color: white;
+    }
+    .icon.fa-brands.fa-github:hover {
+        transform:scale(1.8);
+        color: white;
+    }
 
 
 /* Image */
