@@ -13,6 +13,7 @@
                         </ul>
                 </div>
                 <div class="image filtered span-1-75" data-position="25% 25%">
-                    <img src="{{ asset('/images/pic01.png') }}" />
+                    <img id="profil" src="{{ asset('/images/pic01.png') }}" />
+                    <a href="#" id="profil" class="button primary color3">☀</a>
                 </div>
             </section>

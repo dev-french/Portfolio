@@ -51,6 +51,40 @@ body {
 p {
     font-weight: 500;
     color: #eeeae8;
+    transition: .1s linear;
+}
+
+p:hover {
+    transform:scale(1.1);
+    color: white;
+
+}
+h1 {
+    transition: .1s linear;
+}
+
+h1:hover {
+    transform:scale(1.1);
+    color: white;
+
+}
+h2 {
+    transition: .1s linear;
+}
+
+h2:hover {
+    transform:scale(1.1);
+    color: white;
+
+}
+h3 {
+    transition: .1s linear;
+}
+
+h3:hover {
+    transform:scale(1.1);
+    color: white;
+
 }
 
 mark {
@@ -70,15 +104,14 @@ input, select, textarea {
 	appearance: none;
 }
 
-#darkMode {
+#profil {
 
-    margin-bottom: auto;
-    position: relative;
-    right: 60px;
-    bottom: 60px;
-
+    position: absolute;
+    font-size: 2rem;
 
 }
+
+
 
 /* Page */
 
