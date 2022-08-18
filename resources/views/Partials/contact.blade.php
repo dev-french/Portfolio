@@ -7,6 +7,7 @@
             <li><strong>Tel</strong> : 06.98.61.49.81</li>
             <li><strong>E-mail</strong> : aiss.ghed@gmail.com</li>
         </ul>
+        <a id="arrows" href="#projects" class="button primary color3">⮌</a>
     </div>
     <div class="inner columns divided">
         <div class="span-4-5">

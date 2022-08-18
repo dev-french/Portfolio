@@ -49,6 +49,19 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
+
+a.button.primary.color3 {
+    width: 100px;
+
+}
+
+
+#arrows {
+    font-size: 1em;
+
+
+}
+
 p {
     font-weight: 500;
     color: #eeeae8;
