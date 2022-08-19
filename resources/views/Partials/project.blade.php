@@ -1,9 +1,9 @@
 <!-- Projects -->
-<section id="projects" style="background: linear-gradient(180deg, #eeeae8,#131212);" class="panel">
+<section id="projects" class="panel">
                 <div class="intro">
                     <h2 class="major">Projects</h2>
                     <p>Dans cette section je vous présente les différents projets que j'ai réaliser seul ou en équipe, crée avec plusieurs technologies diverses & variées.</p>
-                    <a id="arrows" href="#contact" class="button primary color3">➜</a>
+                    <a id="arrows" href="#contact" class="button primary color3"><p>➜</p></a>
                 </div>
                 <div class="gallery">
                     <div class="group span-4-5">
