@@ -48,7 +48,8 @@
                     </div>
                 </div>
                 <ul class="actions">
-                    <li><input type="submit" value="Envoyer" class="primary color4" /></li>
+                    <li><input type="submit" value="Envoyer" class="button primary color3" id="envoyer" /></li>
+                    <li><input type="reset" value="⌦" class="button primary color3" id="btn-reset"/></li>
                 </ul>
             </form>
         </div>
@@ -59,7 +60,7 @@
                 <li><a class="icon fa-brands fa-github" href="https://github.com/Aissa-Ghedbane" target="blank"></a></li>
             </ul>
             <ul class="actions">
-                <li><a href="#acceuil" class="button primary color2" style="margin-top:40px;">Retour Page d'Acceuil</a></li>
+                <li><a href="#acceuil" class="button primary color3" id="dl" style="margin-top:40px;">Retour Page d'Acceuil</a></li>
             </ul>
         </div>
     </div>
