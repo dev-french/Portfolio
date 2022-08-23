@@ -101,8 +101,8 @@ h1#title1.major:after {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,237,1) 100%);
+    background: rgb(63, 223, 251);
+    background: radial-gradient(circle, rgb(251, 63, 210) 0%, rgb(82, 54, 236) 100%);
     left: 0;
     top: 0;
     border-radius: 4px;
@@ -227,6 +227,7 @@ a.button.primary.color3 {
     border-radius: 6px;
     transition: .1s linear;
     border: 2px solid #000;
+
 
 
 }
@@ -627,6 +628,52 @@ a.button.primary.color3:after {
             border-radius: 5px;
 
 		}
+        h2.major:before {
+            content: '';
+            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+            position: absolute;
+            top: -2px;
+            left:-2px;
+            background-size: 400%;
+            z-index: -1;
+            filter: blur(5px);
+            width: calc(100% + 4px);
+            height: calc(100% + 4px);
+            animation: glowing 20s linear infinite;
+            opacity: 0;
+            transition: opacity .3s ease-in-out;
+            border-radius: 10px;
+        }
+        h2.major:active {
+            color: #000
+        }
+
+        h2.major:active:after {
+            background: transparent;
+        }
+
+        h2.major:hover:before {
+            opacity: 1;
+        }
+
+        h2.major:after {
+            z-index: -1;
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgb(63, 223, 251);
+            background: radial-gradient(circle, rgb(251, 63, 210) 0%, rgb(82, 54, 236) 100%);
+            left: 0;
+            top: 0;
+            border-radius: 4px;
+        }
+
+        @keyframes glowing {
+            0% { background-position: 0 0; }
+            50% { background-position: 400% 0; }
+            100% { background-position: 0 0; }
+        }
 
 			h2.major:after {
 				bottom: -1.2rem;
@@ -649,11 +696,59 @@ a.button.primary.color3:after {
             border-radius: 5px;
 
 		}
+        h3.major:before {
+            content: '';
+            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+            position: absolute;
+            top: -2px;
+            left:-2px;
+            background-size: 400%;
+            z-index: -1;
+            filter: blur(5px);
+            width: calc(100% + 4px);
+            height: calc(100% + 4px);
+            animation: glowing 20s linear infinite;
+            opacity: 0;
+            transition: opacity .3s ease-in-out;
+            border-radius: 10px;
+        }
+        h3.major:active {
+            color: #000
+        }
+
+        h3.major:active:after {
+            background: transparent;
+        }
+
+        h3.major:hover:before {
+            opacity: 1;
+        }
+
+        h3.major:after {
+            z-index: -1;
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgb(63, 223, 251);
+            background: radial-gradient(circle, rgb(251, 63, 210) 0%, rgb(82, 54, 236) 100%);
+            left: 0;
+            top: 0;
+            border-radius: 4px;
+        }
+
+        @keyframes glowing {
+            0% { background-position: 0 0; }
+            50% { background-position: 400% 0; }
+            100% { background-position: 0 0; }
+        }
+
 
 			h3.major:after {
 				bottom: -0.75rem;
                 color: #000;
 			}
+
 
 	h4 {
 		font-size: 1rem;
@@ -2540,6 +2635,7 @@ a.button.primary.color3:after {
 			-ms-flex-direction: column;
 			flex-direction: column;
 			width: 22rem;
+
 		}
 
 			.panel > .intro.joined {
