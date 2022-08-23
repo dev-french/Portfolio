@@ -220,7 +220,8 @@ input#envoyer:hover {
 a.button.primary.color3 {
     width: 60px;
     color: #fff;
-    background-image:linear-gradient(90deg,  rgb(110, 36, 228) 25%, rgb(38, 248, 185) 100%, rgb(0, 0, 0));
+    background: rgb(63, 223, 251);
+    background: radial-gradient( rgb(251, 63, 210) 0%, rgb(82, 54, 236) 100%);
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -236,7 +237,7 @@ a.button.primary.color3:hover {
 }
 a.button.primary.color3:before {
     content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background: linear-gradient(90deg, #f11ac3, #10d6f0,90%, transparent);
     position: absolute;
     top: -2px;
     left:-2px;
@@ -245,7 +246,7 @@ a.button.primary.color3:before {
     filter: blur(5px);
     width: calc(100% + 4px);
     height: calc(100% + 4px);
-    animation: glowing 20s linear infinite;
+    animation: glowing 15s linear infinite;
     opacity: 0;
     transition: opacity .3s ease-in-out;
     border-radius: 10px;
@@ -269,7 +270,6 @@ a.button.primary.color3:after {
     position: absolute;
     width: 100%;
     height: 100%;
-
     left: 0;
     top: 0;
     border-radius: 4px;
