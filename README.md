@@ -186,16 +186,3 @@ J’actualise mon navigateur et l’affichage de notre echo prouve que notre rou
 ---------
 
 
-# Mes Questions
-
-un repo front & un repo back ? ou tout en 1 ?
-
-Se renseigner sur Docker ?
-
-Créé mon wireframes et mes users - story ?
-
-
-A few moment later...
-
--------
-
