@@ -220,7 +220,7 @@ input#envoyer:hover {
 a.button.primary.color3 {
     width: 60px;
     color: #fff;
-    background: #111;
+    background-image:linear-gradient(90deg,  rgb(110, 36, 228) 25%, rgb(38, 248, 185) 100%, rgb(0, 0, 0));
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -269,7 +269,7 @@ a.button.primary.color3:after {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image:linear-gradient(90deg,  rgb(110, 36, 228) 25%, rgb(38, 248, 185) 100%, rgb(0, 0, 0));
+
     left: 0;
     top: 0;
     border-radius: 4px;
