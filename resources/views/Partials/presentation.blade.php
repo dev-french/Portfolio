@@ -3,7 +3,7 @@
     <div class="content span-3-75">
         <h1 id="title1" class="major">Aïssa 🦊<br>
             Développeur full stack</h1>
-        <p>Créateur de solutions numériques,<br /> je suis spécialisé dans le développement d'applications Web & mobile<br />et la construction d'expériences utilisateur. Je fournis un service de développement d'applications Full-stack en utilisant différentes stacks selon les missions.<br />
+        <p>Créateur de solutions numériques,<br /> je suis spécialisé dans le développement d'applications Web & Mobile<br />et la construction d'expériences utilisateur. Je fournis un service de développement d'applications Full-stack en utilisant différentes stacks selon les missions.<br />
             <br />
             Vous pouvez télécharger mon CV, ou bien me contacter en cliquant sur les boutons ci-dessous.
         </p>

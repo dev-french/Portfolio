@@ -1,6 +1,6 @@
 <!-- Contact -->
 <section id="contact" class="panel">
-    <div class="intro">
+    <div class="intro" id="panel-contact">
         <h2 class="major">Contactez-moi</h2>
         <ul class="alt">
             <li><p>Localisation: Paris, France</p> </li>

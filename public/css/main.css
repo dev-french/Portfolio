@@ -31,10 +31,20 @@ li {
     color: #000;
     font-weight: 500;
 }
+#panel-contact {
+    background: #4C5CFA;
+
+}
+#panel-projects {
+    background: #09d7df;
+    border-left: 4px solid black;
+
+}
 
 div.intro {
-    background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,237,1) 100%);
+    background: rgb(38, 248, 185) ;
+    border-left: 4px solid black;
+
 }
 ol, ul {
 	list-style: none;
@@ -56,8 +66,7 @@ table {
 
 h1#title1.major {
     color: #000;
-    background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,237,1) 100%);
+    background-image:linear-gradient(90deg,  rgb(228, 36, 186) 25%, rgb(38, 248, 185) 100%, rgb(0, 0, 0));
     border: 2px solid black;
     padding: 12px;
     border-radius: 5px;
@@ -69,7 +78,7 @@ h1#title1.major:hover {
 }
 h1#title1.major:before {
     content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background: linear-gradient(45deg, #00ffd5, #ff00c8);
     position: absolute;
     top: -2px;
     left:-2px;
@@ -101,12 +110,14 @@ h1#title1.major:after {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgb(63, 223, 251);
-    background: radial-gradient(circle, rgb(251, 63, 210) 0%, rgb(82, 54, 236) 100%);
+
+    background: radial-gradient(circle, rgb(63, 238, 251) 0%, rgba(252,70,237,1) 100%);
     left: 0;
     top: 0;
     border-radius: 4px;
 }
+
+/* couleur bouton dl background-image:linear-gradient(90deg,  rgb(228, 36, 186) 25%, rgb(38, 248, 185) 100%, rgb(0, 0, 0)); */
 
 @keyframes glowing {
     0% { background-position: 0 0; }
@@ -219,8 +230,7 @@ input#envoyer:hover {
 
 a.button.primary.color3 {
     width: 60px;
-    color: #fff;
-    background-image:linear-gradient(90deg,  rgb(110, 36, 228) 25%, rgb(38, 248, 185) 100%, rgb(0, 0, 0));
+    background-image:linear-gradient(90deg,  rgb(228, 36, 186) 25%, rgb(38, 248, 185) 100%, rgb(0, 0, 0));
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -620,8 +630,7 @@ a.button.primary.color3:after {
 		h2.major {
 			margin: 0 0 1.9875rem 0;
             color: #000;
-            background: rgb(63,94,251);
-            background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,237,1) 100%);
+            background-image:linear-gradient(90deg,  rgb(228, 36, 186) 25%, rgb(38, 248, 185) 100%, rgb(0, 0, 0));
             border: 2px solid #000;
             padding: 15px;
             border-radius: 5px;
@@ -629,7 +638,7 @@ a.button.primary.color3:after {
 		}
         h2.major:before {
             content: '';
-            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+            background: linear-gradient(45deg, #00ffd5, #ff00c8);
             position: absolute;
             top: -2px;
             left:-2px;
@@ -662,7 +671,7 @@ a.button.primary.color3:after {
             width: 100%;
             height: 100%;
             background: rgb(63, 223, 251);
-            background: radial-gradient(circle, rgb(251, 63, 210) 0%, rgb(82, 54, 236) 100%);
+            background: radial-gradient(circle, rgb(63, 238, 251) 0%, rgba(252,70,237,1) 100%);
             left: 0;
             top: 0;
             border-radius: 4px;
@@ -688,8 +697,7 @@ a.button.primary.color3:after {
 		h3.major {
 			margin: 0 0 1.875rem 0;
             color: #000;
-            background: rgb(63,94,251);
-            background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,237,1) 100%);
+            background-image:linear-gradient(90deg,  rgb(228, 36, 186) 25%, rgb(38, 248, 185) 100%, rgb(0, 0, 0));
             border: 2px solid #000;
             padding: 15px;
             border-radius: 5px;
@@ -697,7 +705,7 @@ a.button.primary.color3:after {
 		}
         h3.major:before {
             content: '';
-            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+            background: linear-gradient(45deg, #00ffd5, #ff00c8);
             position: absolute;
             top: -2px;
             left:-2px;
@@ -729,8 +737,7 @@ a.button.primary.color3:after {
             position: absolute;
             width: 100%;
             height: 100%;
-            background: rgb(63, 223, 251);
-            background: radial-gradient(circle, rgb(251, 63, 210) 0%, rgb(82, 54, 236) 100%);
+            background: radial-gradient(circle, rgb(63, 238, 251) 0%, rgba(252,70,237,1) 100%);
             left: 0;
             top: 0;
             border-radius: 4px;
@@ -2674,9 +2681,7 @@ a.button.primary.color3:after {
 			flex-direction: column;
 			position: relative;
 			width: 100%;
-            background: rgb(63,94,251);
-            background: radial-gradient(circle, rgb(38, 248, 185) 65%, rgba(252,70,237,1) 70%);
-            color: black;
+            background: rgb(38, 248, 185) ;
 
 		}
 
@@ -2804,8 +2809,7 @@ a.button.primary.color3:after {
 
 		.panel .span-3-75 {
 			width: 37.5rem;
-            background: rgb(63,94,251);
-            background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,237,1) 100%);
+            background: radial-gradient(circle, rgb(63, 238, 251) 0%, rgba(252,70,237,1) 100%);
 
 		}
 
@@ -3874,13 +3878,13 @@ a.button.primary.color3:after {
 		flex-shrink: 1;
 		height: 100vh;
 		padding: 5rem;
-        background: rgb(63,94,251);
-        background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,237,1) 100%);
+        background: rgb(255, 255, 255);
+
 
 
 	}
     #page-wrapper.dark{
-        background: linear-gradient(45deg, #110b0b,#030303,#3b3a3a,#030303,#3b3a3a,#030303,#3b3a3a,#030303,#3b3a3a,#030303,#3b3a3a,#030303,#3b3a3a,#030303);
+        background: rgb(0, 0, 0);
         display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;

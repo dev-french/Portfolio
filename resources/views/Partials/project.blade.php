@@ -1,6 +1,6 @@
 <!-- Projects -->
 <section id="projects" class="panel">
-                <div class="intro">
+                <div class="intro" id="panel-projects">
                     <h2 class="major">Projects</h2>
                     <p>Dans cette section je vous présente les différents projets que j'ai réaliser seul ou en équipe, crée avec plusieurs technologies diverses & variées.</p>
                     <a id="arrows" href="#contact" class="button primary color3"><p>➜</p></a>
