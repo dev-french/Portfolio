@@ -11,7 +11,7 @@
     </div>
     <div class="inner columns divided">
         <div class="span-4-5">
-            <h3 class="major">Formulaire de contact</h3>
+            <h3 class="major">Renseigner les champs ci-dessous :</h3>
 
             <form method="POST" action="">
                 @csrf

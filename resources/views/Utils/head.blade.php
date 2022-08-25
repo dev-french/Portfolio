@@ -16,6 +16,12 @@
 
     <!-- Page Wrapper -->
     <div class="light" id="page-wrapper">
+        <div class="bubbles"></div>
+                <span></span>
+                <span></span>
+                <span></span>
+
+
 
          <!-- Wrapper -->
         <div id="wrapper">

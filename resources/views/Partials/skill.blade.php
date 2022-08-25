@@ -19,4 +19,17 @@
               <li><a href="#"><span class="icon fa-solid fa-terminal"></span></li></a>
           </ul>
       </div>
+        <div class="inner">
+          <ul class="grid-icons three connected">
+              <li><a href="#"><span class="icon fa-brands fa-php"></span></li></a>
+              <li><a href="#"><span class="icon fa-brands fa-symfony"></span></li></a>
+              <li><a href="#"><span class="icon fa-brands fa-laravel"></span></li></a>
+              <li><a href="#"><span class="icon fa-brands fa-js"></span></li></a>
+              <li><a href="#"><span class="icon fa-brands fa-html5"></span></li></a>
+              <li><a href="#"><span class="icon fa-brands fa-css3-alt"></span></li></a>
+              <li><a href="#"><span class="icon fa-brands fa-node"></span></li></a>
+              <li><a href="#"><span class="icon fa-brands fa-git-alt"></span></li></a>
+              <li><a href="#"><span class="icon fa-solid fa-terminal"></span></li></a>
+          </ul>
+      </div>
   </section>
