@@ -1,4 +1,6 @@
+
 <!-- Home Page-->
+
 <section id="acceuil" class="panel banner right">
     <div class="content span-3-75">
         <h1 id="title1" class="major"><span id="name">Aïssa</span> 🦊<br>
@@ -25,31 +27,5 @@
         <a href="#">
             <h5 class="btn-toggle">🌞</h5>
         </a>
-
-        <!-- A PLACER AU BON ENDROIT / VOIR OU INJECTER LE JS ? -->
-        <script>
-            const btnToggle = document.querySelector('.btn-toggle');
-
-            btnToggle.addEventListener('click', () => {
-
-                const page = document.querySelector('#page-wrapper');
-
-                // console.log(page);
-
-                if (page.classList.contains('light')) {
-                    page.classList.add('dark');
-                    page.classList.remove('light');
-                    btnToggle.innerHTML = "🌙"
-
-
-                } else if (page.classList.contains('dark')) {
-
-                    page.classList.add('light');
-                    page.classList.remove('dark');
-                    btnToggle.innerHTML = "🌞"
-                }
-            })
-        </script>
-
     </div>
 </section>
