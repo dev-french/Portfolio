@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController; // ! Ajouter le Controller en question
+use App\Http\Controllers\HomeController; // ! don't forget to add the controller in question for each new road ;)
 use Illuminate\Http\Request;
 /*
 |--------------------------------------------------------------------------
@@ -15,6 +15,6 @@ use Illuminate\Http\Request;
 */
 
 
-Route::get('/',[HomeController::class,'home'])->name('index'); // Je déclare ma route principal en méthode get
+Route::get('/', [HomeController::class, 'home'])->name('index'); // Je déclare ma route principal en méthode get
 
-Route::post('/',[HomeController::class,'contactSend'])->name('contactSendPage'); // Je déclare une route en post pour récupérer les informations de mon formulaire
+Route::post('/', [HomeController::class, 'contactSend'])->name('contactSendPage'); // Je déclare une route en post pour récupérer les informations de mon formulaire

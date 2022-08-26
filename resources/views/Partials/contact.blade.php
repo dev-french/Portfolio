@@ -3,11 +3,19 @@
     <div class="intro" id="panel-contact">
         <h2 class="major">Contactez-moi</h2>
         <ul class="alt">
-            <li><p>Localisation: Paris, France</p> </li>
-            <li><p>Tel : 06.98.61.49.81</p></li>
-            <li><p>E-mail : aiss.ghed@gmail.com</p></li>
+            <li>
+                <p>Localisation: Paris, France</p>
+            </li>
+            <li>
+                <p>Tel : 06.98.61.49.81</p>
+            </li>
+            <li>
+                <p>E-mail : aiss.ghed@gmail.com</p>
+            </li>
         </ul>
-        <a id="arrows" href="#projects" class="button primary color3"><p>⮌</p></a>
+        <a id="arrows" href="#projects" class="button primary color3">
+            <p>⮌</p>
+        </a>
     </div>
     <div class="inner columns divided">
         <div class="span-4-5">
@@ -37,11 +45,16 @@
                     </div>
                     <div class="field quarter">
                         <input type="radio" id="demo-priority-low" name="demo-priority" class="color1">
-                        <label for="demo-priority-low"><p>Humain 😎</p></label>
+                        <label for="demo-priority-low">
+                            <p>Humain 😎</p>
+                        </label>
                     </div>
                     <div class="field quarter">
                         <input type="radio" id="demo-priority-high" name="demo-priority" class="color1" checked>
-                        <label for="demo-priority-high"><p>Robot 🤖<p></label>
+                        <label for="demo-priority-high">
+                            <p>Robot 🤖
+                            <p>
+                        </label>
                     </div>
                     <div class="field">
                         <textarea name="contenu" id="demo-message" placeholder="Votre message ..." rows="2" required></textarea>
@@ -49,7 +62,7 @@
                 </div>
                 <ul class="actions">
                     <li><input type="submit" value="Envoyer" class="button primary color3" id="envoyer" /></li>
-                    <li><input type="reset" value="⌦" class="button primary color3" id="btn-reset"/></li>
+                    <li><input type="reset" value="⌦" class="button primary color3" id="btn-reset" /></li>
                 </ul>
             </form>
         </div>
@@ -60,7 +73,9 @@
                 <li><a class="icon fa-brands fa-github" href="https://github.com/Aissa-Ghedbane" target="blank"></a></li>
             </ul>
             <ul class="actions">
-                <li><a href="#acceuil" class="button primary color3" id="dl" style="margin-top:40px;"><p>Retour Page d'Acceuil</p></a></li>
+                <li><a href="#acceuil" class="button primary color3" id="dl" style="margin-top:40px;">
+                        <p>Retour Page d'Acceuil</p>
+                    </a></li>
             </ul>
         </div>
     </div>

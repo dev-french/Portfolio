@@ -8,7 +8,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
 
-class HomeController extends Controller {
+class HomeController extends Controller
+{
 
     public function home()
     {
@@ -22,13 +23,11 @@ class HomeController extends Controller {
         $message->subject = $request->subject;
         $message->contenu = $request->contenu;
 
-        $message->save(); // sauvegarde dans la database
+        $message->save();  // save in the database
 
-        //Juste après la sauvegarde dans la database un mail me sera envoyé
-        Mail::to("aiss.ghed@gmail.com")->send(new ContactMail ($message));
+        Mail::to("aiss.ghed@gmail.com")->send(new ContactMail($message));  // Mail functions of Laravel to send an auto message
 
-        return redirect()->route('index'); // redirige vers ma page d'acceuil
+        return redirect()->route('index'); // redirected to my home page
 
     }
 }
-

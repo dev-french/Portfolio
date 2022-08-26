@@ -1,3 +1,4 @@
+<!-- TEXT SENT TO MY MAILBOX EACH TIME I SUBMIT A FORM -->
 @component('mail::message')
 # Bonjour Aïssa,
 

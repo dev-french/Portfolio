@@ -2,7 +2,8 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Api\ContactController; //! Ajouter
+use App\Http\Controllers\Api\NewController; //! // ! don't forget to add the controller in question for each new road ;)
+
 
 /*
 |--------------------------------------------------------------------------
@@ -21,6 +22,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 
 /***********************************/
-/*           Contact             */
+/*           MY API              */
 /***********************************/
-
