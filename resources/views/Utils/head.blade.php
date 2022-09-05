@@ -9,6 +9,7 @@
     <noscript>
         <link rel="stylesheet" href="{{url('css/noscript.css')}}" />
     </noscript>
+
 </head>
 
 <body class="is-preload">

@@ -25,7 +25,7 @@
     <div class="image filtered span-1-75" data-position="25% 25%">
         <img id="profil" src="{{ asset('/images/pic01.png') }}" />
         <a href="#">
-            <h5 class="btn-toggle">🌞</h5>
+            <h5 class="btn-toggle">🌙</h5>
         </a>
     </div>
 </section>
