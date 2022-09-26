@@ -36,7 +36,7 @@ composer create-project laravel/laravel nomDuProjet
 ```
 Ensuite entrer la commande suivante pour mettre à jour nos dépendances :
 ```
-composer update
+composer install
 ```
 ----------------
 Je me connecte sur le serveur [localhost](http://localhost) de PHP ou Laravel en tapant la commande suivant :
