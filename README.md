@@ -1,28 +1,4 @@
 # Portfolio-project
-## My first Portfolio project
-
-**I decided to create a portfolio website
-the site will be composed of :**
-
-- A back end developed with PHP stack and the Laravel framework which will be structured in MVC architecture.
-Several dependencies will be used as Composer, JSON etc..
-For the DB part I want to create my own API.
-
-- Then a front end part developed with JavaScript HTML5 & CSS3.
-
-
-**My goals :**
-
-1) A back end and a front end that communicate easily via HTTP requests & Endpoint.
-
-2) Set up a professional and intuitive user interface (UI design).
-
-3) Respect the good practices and standards in the code. 
-
-4) A full responsive web design project.
-
-5) Implement a minimum of security in the site code (SQL-injections, CSRF etc..)
-
 -------------------------------------------------------------------------------
 
 
